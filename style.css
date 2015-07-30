@@ -94,7 +94,6 @@ nav b {
 .fb-page {
 	width: 17vw;
 	max-width: 17vw;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 	
