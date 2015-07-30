@@ -53,9 +53,9 @@ nav b {
 
 #frontpagenews {
 	margin: 1vw;
-	padding: 0;
-	width: 18vw;
-	max-width: 18vw;
+	padding: 2vw;
+	width: 14vw;
+	max-width: 14vw;
 	min-height: 85vh;
 	background-color: #d0f4f4;
 	display: inline-block;
@@ -67,7 +67,7 @@ nav b {
 	width: 57vw;
 	max-width: 57vw;
 	min-height: 85vh;
-	background-image: url(main-page-layout.jpg);
+	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -76,9 +76,9 @@ nav b {
 
 #facebookfeed {
 	margin: 1vw;
-	padding: 10px;
-	width: 18vw;
-	max-width: 18vw;
+	padding: 2vw;
+	width: 14vw;
+	max-width: 14vw;
 	min-width: 70px;
 	min-height: 85vh;
 	background-color: #d0f4f4;
