@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/style.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{page.title}}</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Poiret+One|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header">
+	<header>
+		
+    	<nav id="headernav">
+        	<img id="headerlogo" src="https://cloud.githubusercontent.com/assets/13402275/8978758/7df873c4-36e8-11e5-9f08-3c703bf99316.png" style="height: 15vh; float: left;" />
+    		<a href=""><b>Join Us</b></a> |
+        	<a href="">About Us</a> |
+        	<a href="">Events</a> |
+        	<a href="">News</a> |
+        	<a href="">Promote Your Band</a> |
+        	<a href="">Sponsors</a> |
+        	<a href="">Contact</a>
+   		</nav>
+    	<a href=""><img class="socialmedia" id="facebooklogo" src="" /></a>
+    	<a href=""><img class="socialmedia" id="twitterlogo" src="" /></a>
+	</header>
+</div>
+
+<div id="container">
+
+	<div id="frontpagenews">
+  </div>
+    
+    <div id="content">
+    	{{content}}
+    </div>
+    
+    <div id="facebookfeed">
+    
+    	<div class="fb-page" align="center" data-href="https://www.facebook.com/monashmss" data-small-header="false" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/monashmss"><a href="https://www.facebook.com/monashmss">Monash Music Students&#039; Society</a></blockquote></div></div>
+    
+    
+    </div>
+    
+    
+</div>
+
+
+</body>
+</html>
