@@ -80,19 +80,12 @@ nav b {
 }
 
 #facebookfeed {
-	margin: 1vw;
-	padding: 0;
 	width: 19vw;
 	max-width: 19vw;
 	min-height: 85vh;
-	background-color: #d0f4f4;
 	display: inline-block;
 	float: right;
 }
 
-.fb-page {
-	width: 18vw;
-	max-width: 18vw;
-	margin: 0.5vw;
-}
+
 	
