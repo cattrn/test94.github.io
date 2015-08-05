@@ -4,12 +4,14 @@
 body {
 	margin: 0;
 	padding: 0;
+	
 }
 
 #header {
 	height: 80px;
 	max-height: 80px;
 	line-height: 80px;
+	margin: 0;
 	margin: 0;
 }
 
@@ -38,6 +40,7 @@ header a:active {
 	position: relative;
 	bottom: -2px;
 	right: -2px;
+	
 }
 
 nav {
@@ -88,9 +91,9 @@ nav b {
 
 #content {
 	margin: auto;
-	padding: 3vh;
-	background-color: rgba(255,255,255,0.7);
-	height: 79vh;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.6);
+	height: 80vh;
 	overflow: scroll;
 }
 
@@ -122,7 +125,7 @@ p {
 
 footer p {
 	text-align: center;
-	font-size: 0.7em;
+	font-size: 0.5em;
 }
 	
 
