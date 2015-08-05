@@ -48,9 +48,9 @@ nav {
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
-
+	width: 70%;
 	margin-left: 80px;
-	margin-right: 80px;
+	padding-right: 80px;
 	vertical-align: middle;
 	display: inline-block;
 	line-height: normal;
