@@ -96,6 +96,8 @@ nav b {
 }
 
 #facebookfeed {
+	margin: 1vw;
+	padding: 0;
 	width: 19vw;
 	max-width: 19vw;
 	min-height: 85vh;
