@@ -20,6 +20,7 @@ header {
 	color: #FFF;
 	margin: 0;
 	position: relative;
+	width: 100%;
 }
 
 header a:link, a:visited {
