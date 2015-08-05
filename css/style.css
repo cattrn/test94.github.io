@@ -44,13 +44,11 @@ header a:active {
 }
 
 nav {
-	padding: 0;
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
 	width: 70%;
-	margin-left: 80px;
-	padding-right: 80px;
+	margin-left: 10%;
 	vertical-align: middle;
 	display: inline-block;
 	line-height: normal;
