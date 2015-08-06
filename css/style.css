@@ -98,7 +98,6 @@ nav b {
 	width: 50vw;
 	min-width: 400px;
 	height: 500px;
-	float: left;
 }
 
 #content {
@@ -116,7 +115,7 @@ nav b {
 	width: 19vw;
 	min-width: 180px;
 	height: 500px;
-	float: left;
+	float: right;
 }
 
 h1 {
