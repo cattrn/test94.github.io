@@ -4,14 +4,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	
 }
 
 #header {
 	height: 80px;
 	max-height: 80px;
-	width: 100%;
-	min-width: 770px;
 	line-height: 80px;
 	margin: 0;
 	margin: 0;
@@ -20,10 +18,10 @@ body {
 header {
 	padding: 10px;
 	height: 100%;
-	width: 100%;
 	background-color:#2c8884;
 	color: #FFF;
 	margin: 0;
+	margin-right: 0;
 }
 
 header a:link, a:visited {
@@ -61,34 +59,32 @@ nav b {
 }
 
 #container {
+	width: 100vw;
 	min-height: 85vh;
 	margin-top: 30px;
 }
 
 #frontpagenews {
-	margin: 5px;
+	margin: 1vw;
 	padding: 0;
-	width: 260px;
-	min-width: 150px;
+	width: 19vw;
+	max-width: 19vw;
 	min-height: 85vh;
 	background-color: #d0f4f4;
 	float: left;
 }
 
 #innercontainer {
-	margin: 5px;
+	margin: 1vw;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 290px;
-	padding-right: 230px;
+	padding: 0;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	width: 85%;
-    	-moz-box-sizing: border-box;
-    	-webkit-box-sizing: border-box;
-    	box-sizing: border-box;
+	width: 55vw;
+	max-width: 55vw;
 	min-height: 85vh;
 	float: left;
 }
@@ -102,10 +98,10 @@ nav b {
 }
 
 #facebookfeed {
-	margin: 5px;
+	margin: 1vw;
 	padding: 0;
-	width: 200px;
-	min-width: 180px;
+	width: 19vw;
+	max-width: 19vw;
 	min-height: 85vh;
 	float: right;
 }
@@ -131,5 +127,3 @@ footer p {
 	text-align: center;
 	font-size: 0.5em;
 }
-	
-
