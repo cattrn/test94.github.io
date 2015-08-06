@@ -4,12 +4,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	
+	width: 100%;
 }
 
 #header {
 	height: 80px;
 	max-height: 80px;
+	width: 100%;
+	min-width: 600px;
 	line-height: 80px;
 	margin: 0;
 	margin: 0;
@@ -18,10 +20,10 @@ body {
 header {
 	padding: 10px;
 	height: 100%;
+	width: 100%;
 	background-color:#2c8884;
 	color: #FFF;
 	margin: 0;
-	margin-right: 0;
 }
 
 header a:link, a:visited {
