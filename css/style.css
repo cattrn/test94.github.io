@@ -10,6 +10,7 @@ body {
 #header {
 	height: 80px;
 	max-height: 80px;
+	min-width: 791px;
 	line-height: 80px;
 	margin: 0;
 	margin: 0;
@@ -61,21 +62,22 @@ nav b {
 #container {
 	width: 100vw;
 	min-height: 85vh;
+	min-width: 791px;
 	margin-top: 30px;
 }
 
 #frontpagenews {
-	margin: 1vw;
+	margin: 5px;
 	padding: 0;
 	width: 19vw;
 	min-width: 180px;
-	height: 800px;
+	height: 500px;
 	background-color: #d0f4f4;
 	float: left;
 }
 
 #innercontainer {
-	margin: 1vw;
+	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
@@ -85,7 +87,7 @@ nav b {
 	background-position: center bottom;
 	width: 55vw;
 	min-width: 400px;
-	height: 800px;
+	height: 500px;
 	float: left;
 }
 
@@ -93,16 +95,16 @@ nav b {
 	margin: auto;
 	padding: 30px;
 	background-color: rgba(255,255,255,0.6);
-	height: 730px;
+	height: 430px;
 	overflow: scroll;
 }
 
 #facebookfeed {
-	margin: 1vw;
+	margin: 5px;
 	padding: 0;
 	width: 19vw;
 	min-width: 180px;
-	height: 800px;
+	height: 500px;
 	float: right;
 }
 
