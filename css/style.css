@@ -68,7 +68,7 @@ nav b {
 #frontpagenews {
 	margin: 5px;
 	padding: 0;
-	width: 300px;
+	width: 260px;
 	min-width: 150px;
 	min-height: 85vh;
 	background-color: #d0f4f4;
@@ -79,13 +79,13 @@ nav b {
 	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 320px;
-	padding-right: 260px;
+	padding-left: 270px;
+	padding-right: 210px;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	width: 100%;
+	width: 90%;
     	-moz-box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     	box-sizing: border-box;
@@ -104,14 +104,10 @@ nav b {
 #facebookfeed {
 	margin: 5px;
 	padding: 0;
-	width: 240;
+	width: 200px;
 	min-width: 180px;
 	min-height: 85vh;
 	float: right;
-}
-
-.fb-comments, .fb-comments iframe[style], .fb-comments span {
-   width: 100% !important;
 }
 
 h1 {
