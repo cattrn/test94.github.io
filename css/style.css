@@ -84,8 +84,6 @@ nav b {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	max-width: 55vw;
-	min-width: 300px;
 	min-height: 85vh;
 	float: left;
 }
