@@ -76,15 +76,16 @@ nav b {
 }
 
 #innercontainer {
-	margin: 5px;
-	margin-left: 5vw;
-	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	width: 50vw;
+	width: 55vw;
 	min-width: 400px;
 	height: 500px;
 	float: left;
