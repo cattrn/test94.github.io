@@ -79,15 +79,13 @@ nav b {
 	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 270px;
-	margin-left: -270px;
-	padding-right: 210px;
-	margin-right: -210px;
+	padding-left: 290px;
+	padding-right: 230px;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	width: 90%;
+	width: 85%;
     	-moz-box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     	box-sizing: border-box;
