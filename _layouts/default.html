@@ -4,10 +4,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{page.title}}</title>
-<link rel="stylesheet" type="text/css" href="css/style2.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <link href='https://fonts.googleapis.com/css?family=Poiret+One|Amatic+SC|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('expand')
+    		$('.menu-btn').addClass('btn-none')
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('expand')
+    		$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
+ </script>
+ 
 </head>
 
 <body>
@@ -33,6 +46,28 @@
         	<a href="">Sponsors</a> |
         	<a href="">Contact</a>
    	     </nav>
+         
+<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+ 
+     <div class="responsive-menu">
+        <ul>
+           <li>Join Us</li>
+           <li>About Us</li>
+           <li>Events</li>
+           <li>News</li>
+           <li>Promote Your Band</li>
+           <li>Sponsors</li>
+           <li>Contact</li>
+        </ul>
+     </div>
+</div>
+         
     	<a href=""><img class="socialmedia" id="facebooklogo" src="" /></a>
     	<a href=""><img class="socialmedia" id="twitterlogo" src="" /></a>
 	</header>
