@@ -104,7 +104,7 @@ nav b {
 	display: inline;
 }
 
-.fb-page {
+.fb-page, .fb-xfbml-parse-ignore {
 	display: none;
 }
 
