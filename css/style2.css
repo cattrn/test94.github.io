@@ -97,7 +97,7 @@ nav b {
 
 .menu-btn span {
   position: relative;
-  left: 4px;
+  left: 20px;
 	display: block;
 	width: 21px;
 	height: 4px;
@@ -113,7 +113,7 @@ nav b {
 .expand {
   position: relative;
 	display: block !important;
-  margin-bottom: -40px;
+  margin-bottom: -50px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
@@ -123,8 +123,8 @@ nav b {
 
 .expand ul li {
   list-style-type: none;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 #container {
