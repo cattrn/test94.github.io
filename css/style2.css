@@ -113,7 +113,7 @@ nav b {
 .expand {
   position: relative;
 	display: block !important;
-  margin-bottom: -100px;
+  margin-bottom: -40px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
