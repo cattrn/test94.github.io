@@ -21,9 +21,9 @@ body {
 }
 
 #header {
-	height: 50px;
+	height: 40px;
 	width: 100%;
-	line-height: 80px;
+	line-height: 40px;
 	margin: 0;
   position: relative;
   z-index: 99;
@@ -97,6 +97,7 @@ nav b {
 
 .menu-btn span {
   position: relative;
+  left: 4px;
 	display: block;
 	width: 21px;
 	height: 4px;
