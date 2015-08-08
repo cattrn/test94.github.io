@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -58,10 +62,41 @@ nav {
 	vertical-align: middle;
 	display: inline-block;
 	line-height: normal;
+	display: none;
 }
 
 nav b {
 	font-weight: 900;
+}
+
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+ 
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+ 
+.responsive-menu{
+	display: none;
+}
+ 
+.expand {
+	display: block !important; 
 }
 
 #container {
@@ -100,14 +135,11 @@ nav b {
 	margin-left: 10px;
 	padding: 0;
 	width: 340px;
-	display: none;
 	display: inline;
 }
 
 .fb-page, .fb-xfbml-parse-ignore {
-	width: 0;
-	height: 0;
-	overflow: hidden;
+	display: none;
 }
 
 h1 {
