@@ -21,9 +21,9 @@ body {
 }
 
 #header {
-	height: 80px;
+	height: 70px;
 	width: 100%;
-	line-height: 80px;
+	line-height: 70px;
 	margin: 0;
   position: relative;
   z-index: 99;
@@ -39,17 +39,17 @@ header {
   z-index: 99;
 }
 
-header a:link, a:visited {
+header a:link, header a:visited, .expand ul li a:link, .expand ul li a:visited {
 	color: #FFF;
 	text-decoration: none;
 }
 
-header a:hover {
+header a:hover, .expand ul li a:hover {
 	color: #CCC;
 	text-decoration: none;
 }
 
-header a:active {
+header a:active, .expand ul li a:active {
 	color: #999;
 	text-decoration: none;
 	position: relative;
@@ -94,7 +94,7 @@ nav b {
 .menu-btn span {
   position: relative;
   left: 20px;
-  top: 40px;
+  top: 25px;
 	display: block;
 	width: 21px;
 	height: 4px;
@@ -123,8 +123,6 @@ nav b {
   line-height: 40px;
   margin-top: 2px;
   margin-bottom: 2px;
-  border-style: solid;
-  border-color: rgb(255,255,255);
 }
 
 #container {
