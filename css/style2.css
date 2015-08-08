@@ -78,6 +78,7 @@ nav b {
 }
 
 #menu-btn {
+  display: inline;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -99,8 +100,8 @@ nav b {
 .menu-btn span {
   position: relative;
 	display: block;
-	width: 19px;
-	height: 3px;
+	width: 21px;
+	height: 4px;
 	margin: 4px 0;
 	background: rgb(255,255,255);
 	z-index: 99;
@@ -113,6 +114,7 @@ nav b {
 .expand {
   position: relative;
 	display: block !important;
+  margin-bottom: -10px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
@@ -122,8 +124,8 @@ nav b {
 
 .expand ul li {
   list-style-type: none;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 #container {
