@@ -109,9 +109,9 @@ nav b {
 .expand {
   position: relative;
   right: 10px;
+  top: 10px;
 	display: block !important;
   margin-bottom: -100px;
-  margin-top: 20px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
@@ -129,6 +129,11 @@ nav b {
 .expand ul hr {
 	width: 50%;
 	align: center;
+}
+
+#mmenu1 {
+	position: relative;
+	left: -2px;
 }
 
 #container {
