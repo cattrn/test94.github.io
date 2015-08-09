@@ -131,8 +131,9 @@ nav b {
 	align: center;
 }
 
-.expand ul li#mmenu1 {
-	margin-left: -3px;
+#mmenu1 {
+	position: relative;
+	left: -10px;
 }
 
 #container {
