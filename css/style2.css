@@ -132,8 +132,7 @@ nav b {
 }
 
 #mmenu1 {
-	position: relative;
-	left: -2px;
+	margin-left: -3px;
 }
 
 #container {
