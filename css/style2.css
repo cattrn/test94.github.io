@@ -175,12 +175,14 @@ nav b {
 	height: 0;
 	overflow: hidden;
 	display: inline;
+	display: none;
 }
 
 .fb-page, .fb-xfbml-parse-ignore {
 	width: 0;
 	height: 0;
 	overflow: hidden;
+	display: none;
 }
 
 h1 {
