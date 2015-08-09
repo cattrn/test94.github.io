@@ -62,7 +62,7 @@ body {
 }
 
 #innercontainer {
-  height: 500px;
+  min-height: 500px;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
