@@ -93,7 +93,8 @@ nav b {
 
 .menu-btn span {
   position: relative;
-  top: 25px;
+  top: 30px;
+  left: 2px;
 	display: block;
 	width: 21px;
 	height: 4px;
