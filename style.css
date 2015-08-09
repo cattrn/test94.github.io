@@ -20,7 +20,13 @@ body {
     to   { opacity: 1; }
 }
 
-
+.navbar-inverse {
+  vertical-align: middle;
+  background-color: #2c8884;
+  color: #FFF;
+  border-style: none;
+  border-radius: 0px;
+}
 
 .navbar-nav a:link, .navbar-nav a:visited {
 	color: #FFF;
@@ -60,7 +66,7 @@ body {
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center bottom;  
+	background-position: center bottom;
 }
 
 #content {
