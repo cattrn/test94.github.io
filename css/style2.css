@@ -111,7 +111,7 @@ nav b {
   right: 10px;
   top: 10px;
 	display: block !important;
-  margin-bottom: -100px;
+  margin-bottom: -90px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
@@ -131,7 +131,7 @@ nav b {
 	align: center;
 }
 
-#mmenu1 {
+.expand ul li#mmenu1 {
 	margin-left: -3px;
 }
 
