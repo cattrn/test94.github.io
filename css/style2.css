@@ -93,7 +93,6 @@ nav b {
 
 .menu-btn span {
   position: relative;
-  left: 20px;
   top: 25px;
 	display: block;
 	width: 21px;
@@ -112,6 +111,7 @@ nav b {
   right: 10px;
 	display: block !important;
   margin-bottom: -100px;
+  margin-top: 20px;
   font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	text-align: center;
