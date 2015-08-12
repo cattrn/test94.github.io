@@ -16,4 +16,4 @@ $(function() {
     $("a:contains('Events')").parent().addClass('active');
     $("a:contains('About Us')").parent().removeClass('active');
   });
-});
+}
