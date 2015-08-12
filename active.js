@@ -1,4 +1,4 @@
-document.onload = function getFileName() {
+$( document ).ready(function getFileName() {
 //this gets the full url
 var url = document.location.href;
 //this removes the anchor at the end, if there is one
@@ -9,7 +9,7 @@ url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"))
 url = url.substring(url.lastIndexOf("/") + 1, url.length);
 //return
 return url;
-}
+});
 
 $(function() {
   if(url = 'index.html'){
