@@ -12,8 +12,67 @@ return url;
 }
 
 $(function() {
+  if(url = 'index.html'){
+    $(".navbar-nav a:contains('About Us')").parent().addClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
   if(url = 'events.html'){
     $(".navbar-nav a:contains('Events')").parent().addClass('active');
     $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
+  if(url = 'news.html'){
+    $(".navbar-nav a:contains('News')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
+  if(url = 'promote.html'){
+    $(".navbar-nav a:contains('Promote Your Band')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
+  if(url = 'sponsors.html'){
+    $(".navbar-nav a:contains('Sponsors')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
+  if(url = 'contact.html'){
+    $(".navbar-nav a:contains('Contact')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sign Up')").parent().removeClass('active');
+  }
+  if(url = 'signup.html'){
+    $(".navbar-nav a:contains('Sign Up')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().removeClass('active');
+    $(".navbar-nav a:contains('News')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Promote Your Band')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Sponsors')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Contact')").parent().removeClass('active');
   }
 });
