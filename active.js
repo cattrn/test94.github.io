@@ -12,7 +12,7 @@ return url;
 }
 
 $(function() {
-  $(if(url = 'events.html'){
+  if(url = 'events.html'){
     $("a:contains('Events')").parent().addClass('active')
-  })
-})
+  });
+});
