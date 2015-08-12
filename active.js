@@ -13,7 +13,7 @@ return url;
 
 $(function() {
   if(url = 'events.html'){
-    $("a:contains('Events')").parent().addClass('active');
-    $("a:contains('About Us')").parent().removeClass('active');
+    $(".navbar-nav a:contains('Events')").parent().addClass('active');
+    $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
   });
 }
