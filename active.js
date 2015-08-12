@@ -1,4 +1,4 @@
-function getFileName() {
+document.onload = function getFileName() {
 //this gets the full url
 var url = document.location.href;
 //this removes the anchor at the end, if there is one
