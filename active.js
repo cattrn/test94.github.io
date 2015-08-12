@@ -15,5 +15,5 @@ $(function() {
   if(url = 'events.html'){
     $(".navbar-nav a:contains('Events')").parent().addClass('active');
     $(".navbar-nav a:contains('About Us')").parent().removeClass('active');
-  });
-}
+  }
+});
