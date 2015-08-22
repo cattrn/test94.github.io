@@ -7,9 +7,11 @@
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link href='https://fonts.googleapis.com/css?family=Poiret+One|Amatic+SC|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 </head>
 
 <body>
@@ -49,6 +51,47 @@
 </nav>
 <!--NAVBAR END-->
 
+<div id="signup" class="white-popup mfp-hide">
+  <p>In order to become a member and get connected with the Monash University music community, the easiest way to sign up is to <b>attend one of our events</b>. To be notified of future events, feel free to sign up to our mailing list below.</p>
+  
+  <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//facebook.us11.list-manage.com/subscribe/post?u=1d497063712df1f8ca7206041&amp;id=c3789e9515" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_1d497063712df1f8ca7206041_c3789e9515" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+</div>
+
+
 
 <div class="container-fluid">
 	<div class="row">
@@ -77,6 +120,11 @@
 <script>
 document.getElementById("copyright").innerHTML =
 "<p>Copyright &copy;  " + new Date().getFullYear() + " Monash Music Students' Society. All rights reserved.</p>";
+
+$('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
 </script>
 
 
