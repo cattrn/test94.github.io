@@ -89,6 +89,15 @@ p {
 	font-size: 1em;
 }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
 #footer {
 	margin-top: 40px;
 }
