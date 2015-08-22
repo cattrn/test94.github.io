@@ -99,7 +99,7 @@ p {
 }
 
 #mc_embed_signup .button {
-	background-color: #2c8884;
+	background-color: #2c8884 !important;
 }
 
 #footer {
