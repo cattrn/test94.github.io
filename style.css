@@ -50,7 +50,7 @@ body {
 .navbar-nav {
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
-  line-height: 70px;
+  	line-height: 70px;
 }
 
 .navbar-nav b {
@@ -62,7 +62,7 @@ body {
 }
 
 #innercontainer {
-  min-height: 500px;
+  	min-height: 500px;
 	background-image: url(https://cloud.githubusercontent.com/assets/13402275/8978949/e086ae38-36e9-11e5-835f-7c818261656b.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body {
 	margin: auto;
 	padding: 5px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.7);
 }
 
 h1 {
