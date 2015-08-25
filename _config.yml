@@ -1,3 +1,10 @@
-name: Hank Quinlan, horrible cop
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+name: Monash Music Students' Society
+description:
+
+url: http://test94.github.io
+
+paginate: 10
+
+
+markdown: rdiscount
+permalink: pretty
