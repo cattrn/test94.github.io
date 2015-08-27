@@ -104,6 +104,11 @@ p {
 	background-color: #2c8884 !important;
 }
 
+#contactcontent {
+	width: 45%;
+	float: left;
+}
+
 #contactForm {
 	width: 50%;
 }
