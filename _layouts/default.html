@@ -178,12 +178,37 @@
 
 
 <script>
+//COPYRIGHT DATE
 document.getElementById("copyright").innerHTML =
 "<p>Copyright &copy;  " + new Date().getFullYear() + " Monash Music Students' Society. All rights reserved.</p>";
 
+//SIGN UP POP-UP
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+
+//FORM VALIDATION
+$("#contactForm").validate({
+	submitHandler: function(form) {
+    		$.ajax({
+      			url: "//formspree.io/music@monashclubs.org", 
+      			method: "POST",
+      			data: {
+        			name: $(form).find("input[name='name']").val(),
+        			_replyto: $(form).find("input[name='_replyto']").val(),
+        			message: $(form).find("textarea[name='message']").val()
+      			},
+      		dataType: "json",
+      		success: function() {
+        $("#submit-success").fadeIn();
+        $("#contact-form").fadeOut();
+      },
+      error: function() {
+        $("#submit-errors").fadeIn();        
+      }
+    		});
+  	}
 });
 </script>
 
