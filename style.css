@@ -54,12 +54,12 @@ body {
 
 .navbar-nav {
 	font-family: 'Amatic SC', cursive;
-	font-size: 1.6em;
+	font-size: 1.7em;
   	line-height: 70px;
 }
 
 .navbar-nav a {
-	padding: 10px 7px;
+	padding: 10px 7px !important;
 }
 
 
