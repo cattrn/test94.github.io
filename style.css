@@ -31,18 +31,17 @@ body {
 .navbar-nav a:link, .navbar-nav a:visited {
 	color: #FFF;
 	text-decoration: none;
-	font-size: 2em;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
+	transition: font 0.3s ease;
+	-webkit-transition: font 0.3s ease;
+	-moz-transition: font 0.3s ease;
+	-o-transition: font 0.3s ease;
+	-ms-transition: font 0.3s ease;
 }
 
 .navbar-nav a:hover {
 	color: #CCC;
 	text-decoration: none;
-	font-size: 2.1em;
+	font-size: 1.5em;
 }
 
 .navbar-nav a:active {
@@ -51,7 +50,6 @@ body {
 	position: relative;
 	bottom: -2px;
 	right: -2px;
-
 }
 
 .navbar-nav {
