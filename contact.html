@@ -3,11 +3,41 @@ layout: default
 title: Untitled
 ---
 <p>If you want to contact us about <i>anything</i>, please feel free to email us at <a href="mailto:music@monashclubs.org" target="_blank">music@monashclubs.org</a> or you can use the form below.</p>
-<form action="//formspree.io/music@monashclubs.org"
-      method="POST">
-    <br /><input type="text" name="name" placeholder="Name">
-    <br /><input type="email" name="_replyto" placeholder="Email">
-    <br/><textarea name="message" rows="5" placeholder="Your message"></textarea>
+<form action="//formspree.io/music@monashclubs.org" class="form" id="contactForm" method="POST">
+    <br /><input type="text" name="name" placeholder="Name" required>
+    <br /><input type="email" name="_replyto" placeholder="Email" required>
+    <br /><input type="text" name="Subject" placeholder="Subject">
+    <br/><textarea name="message" rows="5" placeholder="Your message" required></textarea>
+    <br /><input type="submit" value="Send">
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
 </form>
+
+<script>
+(function() {
+    var $contactForm = $('#contactForm');
+    // VALIDATE FORM
+    $contactForm.validate();
+    $contactForm.submit(function(e) {
+        if ($(this).valid())
+             {
+             e.preventDefault();
+        $.ajax({
+            url: '//formspree.io/music@monashclubs.org',
+            method: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
+            beforeSend: function() {
+                $contactForm.append('<div class="message message--loading">Sending message…</div>');
+            },
+            success: function(data) {
+                $contactForm.find('.alert--loading').hide();
+                $contactForm.append('<div class="message message--success">Message sent!</div>');
+            },
+            error: function(err) {
+                $contactForm.find('.alert--loading').hide();
+                $contactForm.append('<div class="message message--error">Ops, there was an error.</div>');
+             }
+       return false;
+     });
+})();
+</script>
