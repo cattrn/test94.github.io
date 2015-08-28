@@ -3,20 +3,20 @@ $('#calendar').kalendar({
 
     // Events are objects, placed inside of an array
     events: [
-        {
-            title: "Title of event",
-            start: {
-                date: YYYYMMDD or "YYYYMMDD",   // "20131230"
-                time: "HH.MM"                   // "12.00"
-            },
-            end: {
-                date: YYYYMMDD or "YYYYMMDD",   // "20131230"
-                time: "HH.MM"                   // "20.00"
-            },
-            location: "Location",               // "London"
-            url: "http://*.*",                  // "http://example.com"
-            color: "string"                     // "red" string containing reference to the eventcolorsobject
-        }
+//        {
+//            title: "Title of event",
+//            start: {
+//                date: YYYYMMDD or "YYYYMMDD",   // "20131230"
+//                time: "HH.MM"                   // "12.00"
+//            },
+//            end: {
+//                date: YYYYMMDD or "YYYYMMDD",   // "20131230"
+//                time: "HH.MM"                   // "20.00"
+//            },
+//            location: "Location",               // "London"
+//            url: "http://*.*",                  // "http://example.com"
+//            color: "string"                     // "red" string containing reference to the eventcolorsobject
+//        }
     ],
     // Custom colorsets to set a specific color to an event. If one of the three variables isn’t set the inherit value will be used.
     eventcolors: {
@@ -59,14 +59,14 @@ $('#calendar').kalendar({
 
     // Callbackevents will be fired when a certain criteria is met. The following are the currently supported events
 
-    onInitiated: function() {},                 // After the kalendar have been fully initiated. E.g when everything is loaded
-    onGoogleParsed: function() {},              // After Google Calendar events, if they exist, have been parsed
-    onMonthChanged: function() {},              // After events passed to the plugin have been parsed
-    onDayShow: function() {
+//    onInitiated: function() {},                 // After the kalendar have been fully initiated. E.g when everything is loaded
+//    onGoogleParsed: function() {},              // After Google Calendar events, if they exist, have been parsed
+//    onMonthChanged: function() {},              // After events passed to the plugin have been parsed
+//    onDayShow: function() {
       
-    },                   // When a specific day have started to load. E.g when a day with an event attached to it is clicked
-    onGridShow: function() {},                  // When the grid of days have started to load. E.g when a specific dayview have been cancelled
-    onDayClick: function(e) {}                  // When a day gets clicked, no matter if it contains any event or not. Passed to this function is whether the day                                                is from this month or if it’s the current day. This can be accessed in the variable e.data.info
+//    },                   // When a specific day have started to load. E.g when a day with an event attached to it is clicked
+//    onGridShow: function() {},                  // When the grid of days have started to load. E.g when a specific dayview have been cancelled
+//    onDayClick: function(e) {}                  // When a day gets clicked, no matter if it contains any event or not. Passed to this function is whether the day                                                is from this month or if it’s the current day. This can be accessed in the variable e.data.info
 
     // I decided to track people using this plugin in order to make it even better. 
     // The things I collect are current URL, color or kalendar, whether you decided to show days or not and your selected first day of the week.
