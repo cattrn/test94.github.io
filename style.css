@@ -117,8 +117,8 @@ p {
 #contactcontent {
 	width: 45%;
 	float: left;
-	position: absolute;
-	top: 40%;
+	position: relative;
+	top: 30%;
 	padding-right: 15px;
 }
 
