@@ -18,6 +18,7 @@ title: Untitled
     <br/><textarea name="message" rows="5" placeholder="Your message (required)" required></textarea>
     <br /><input id="contactSubmit" type="submit" value="Send">
     <input type="text" name="_gotcha" style="display:none" />
+    <input class="open-popup-link" type="hidden" name="_next" value="#thankyoudisplay"  />
     <!-- Hidden message to show if contact is successful. -->
     <br /><div id="submit-success" class="collapse">
   Message received! We'll be in touch.
@@ -26,6 +27,9 @@ title: Untitled
 <div id="submit-errors" class="collapse">
   It looks like there was an error submitting the form.
   Please try again later or <a href="mailto:music@monashclubs.org" target="_blank">send an email to us</a> if you think there's an error.
+</div>
+<div id="thankyoudisplay" class="white-popup mfp-hide">
+    <p>Your form was sent successfully! Thank you! We'll get back to you soon.</p>
 </div>
 
 
