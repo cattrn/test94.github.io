@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-nav a:link, .navbar-nav a:visited {
-	color: #FFF;
+	color: #96C4C2;
 	text-decoration: none;
 	transition: font 0.3s ease;
 	-webkit-transition: font 0.3s ease;
@@ -39,15 +39,16 @@ body {
 }
 
 .navbar-nav a:hover {
-	color: #CCC;
+	color: #FFF;
 	text-decoration: none;
-	font-size: 1.1em;
+	box-shadow: 2px 2px 1px #888888;
 }
 
 .navbar-nav a:active {
-	color: #999;
+	color: #FFF;
 	text-decoration: none;
 	position: relative;
+	box-shadow: none;
 	bottom: -2px;
 	right: -2px;
 }
