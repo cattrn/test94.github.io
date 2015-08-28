@@ -114,6 +114,11 @@ p {
 	font-size: 1em;
 }
 
+.nav-tabs li a {
+	font-family: 'Lato', sans-serif;
+	color: #2c8884;
+}
+
 .white-popup {
   position: relative;
   background: #FFF;
