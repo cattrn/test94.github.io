@@ -141,6 +141,7 @@ p {
 
 #contactForm textarea {
 	padding: 8px 2%;
+	text-indent: 0;
 }
 
 #contactForm #contactSubmit {
