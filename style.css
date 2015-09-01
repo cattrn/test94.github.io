@@ -183,6 +183,10 @@ p {
 	-webkit-appearance: none;
 }
 
+.news-container div span {
+	display: block;
+}
+
 #footer {
 	margin-top: 40px;
 }
