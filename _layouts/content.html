@@ -9,11 +9,13 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Amatic+SC:400,700|Dancing+Script:700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+<link rel="stylesheet" href="pagination/jqpagination.css">
 <link rel="stylesheet" href="bootstrap.vertical-tabs.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="readmore.min.js"></script>
+<script src="pagination/jquery.jqpagination.min.js"></script>
 </head>
 
 <body>
@@ -132,6 +134,28 @@ $('.article').readmore({
 	collapsedHeight: 100,
   	moreLink: '<a href="#">Read more</a>',
   	lessLink: '<a href="#">Read less</a>'
+});
+
+$(document).ready(function() {
+   
+    // hide all but the first of our paragraphs
+    $('.news-container div:not(:first)').hide();
+    
+    $('.pagination').jqPagination({
+        max_page    : $('.some-container div').length,
+        paged        : function(page) {
+            
+            // a new 'page' has been requested
+            
+            // hide all paragraphs
+            $('.news-container div').hide();
+            
+            // but show the one we want
+            $($('.news-container div')[page - 1]).show();
+            
+        }
+    });
+    
 });
 </script>
 
