@@ -16,16 +16,6 @@
 <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="readmore.min.js"></script>
 <script src="pagination/jquery.jqpagination.min.js"></script>
-<script>
-
-$('.article').readmore({
-	collapsedHeight: 100,
-  	moreLink: '<a href="#">Read more</a>',
-  	lessLink: '<a href="#">Read less</a>'
-});
-
-	
-</script>
 </head>
 
 <body>
@@ -141,6 +131,12 @@ $('.open-popup-link').magnificPopup({
 });
 
 $(document).ready(function() {
+	
+	$('.article').readmore({
+	collapsedHeight: 100,
+  	moreLink: '<a href="#">Read more</a>',
+  	lessLink: '<a href="#">Read less</a>'
+});
    
     // hide all but the first of our paragraphs
     $('.news-container div:not(:first)').hide();
