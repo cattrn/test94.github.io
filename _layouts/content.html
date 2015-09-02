@@ -4,6 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{page.title}}</title>
+<script>
+$(document).ready(function() {	
+	$('.article').readmore({
+	collapsedHeight: 100,
+  	moreLink: '<a href="#">Read more</a>',
+  	lessLink: '<a href="#">Read less</a>'
+	});
+});
+</script>
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Amatic+SC:400,700|Dancing+Script:700' rel='stylesheet' type='text/css'>
@@ -131,12 +140,6 @@ $('.open-popup-link').magnificPopup({
 });
 
 $(document).ready(function() {
-	
-	$('.article').readmore({
-	collapsedHeight: 100,
-  	moreLink: '<a href="#">Read more</a>',
-  	lessLink: '<a href="#">Read less</a>'
-});
    
     // hide all but the first of our paragraphs
     $('.news-container div:not(:first)').hide();
