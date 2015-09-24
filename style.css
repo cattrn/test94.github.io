@@ -68,6 +68,12 @@ body {
 	font-weight: 900;
 }
 
+@media screen and (max-width: 797px){
+	.nav-bar-right {
+		display: none;	
+	}
+}
+
 #frontpagenews {
 	max-height: 800px;
 }
