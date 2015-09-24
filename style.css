@@ -68,7 +68,7 @@ body {
 	font-weight: 900;
 }
 
-@media (max-width: 797px) and (min-width: 767px){
+@media (max-width: 802px) and (min-width: 767px){
 	.navbar-right {
 		display: none;	
 	}
