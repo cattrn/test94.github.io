@@ -37,7 +37,7 @@
       <a class="navbar-brand" href="#"><img id="headerlogo" src="https://cloud.githubusercontent.com/assets/13402275/8978758/7df873c4-36e8-11e5-9f08-3c703bf99316.png" style="height: 80px;" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-left">
         <li><a href="#signup" class="open-popup-link"><b>Sign Up</b></a></li>
         <li><a href="index.html">About Us</a></li>
         <li><a href="events.html">Events</a></li>
@@ -135,6 +135,19 @@ document.getElementById("copyright").innerHTML =
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+
+
+//var w1 = $(".navbar-left").width();
+//var w2 = $(".navbar-right").width();
+//var topwidth = w1 + w2;
+
+$(window).resize(function(){
+    if ($(window).width() < ($(".navbar-left").width() + $(".navbar-right").width())) {
+        $(".navbar-right").hide();
+    } else {
+        $(".navbar-right").show();
+    }
 });
 
 $(document).ready(function() {
